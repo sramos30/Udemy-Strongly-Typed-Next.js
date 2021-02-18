@@ -1,0 +1,65 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn set version barry
+
+PATH: 
+  /Users/sergioramos/.rvm/gems/ruby-3.0.0/bin:/Users/sergioramos/.rvm/gems/ruby-3.0.0@global/bin:/Users/sergioramos/.rvm/rubies/ruby-3.0.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/MacGPG2/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/git/bin:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/usr/local/sbin:/Users/sergioramos/.cargo/bin:/Users/sergioramos/opt/anaconda3/bin:/Users/sergioramos/opt/anaconda3/condabin:/usr/local/opt/qt/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/sergioramos/flutter/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/sergioramos/Library/Android/sdk/tools:/Users/sergioramos/Library/Android/sdk/platform-tools:/Users/sergioramos/Library/Android/ndk:/Users/sergioramos/Projects/GoWork/bin:/Users/sergioramos/.gem/ruby/3.0.0/bin:/usr/local/mysql/bin:/usr/local/apache-maven-3.5.2/bin:/Users/sergioramos/.rvm/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Release not found: barry
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:89857:17
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+npm manifest: 
+  {
+    "name": "app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@apollo/client": "^3.3.9",
+      "@material-ui/core": "^4.11.3",
+      "graphql": "^15.5.0",
+      "next": "^10.0.6",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1"
+    },
+    "devDependencies": {
+      "@graphql-codegen/cli": "^1.20.1",
+      "@graphql-codegen/plugin-helpers": "^1.18.2",
+      "@graphql-codegen/typescript": "^1.20.2",
+      "@graphql-codegen/typescript-operations": "^1.17.14",
+      "@graphql-codegen/typescript-react-apollo": "^2.2.1",
+      "@types/node": "^14.14.25",
+      "@types/react": "^17.0.1",
+      "@types/react-dom": "^17.0.0",
+      "graphql-let": "^0.16.3",
+      "typescript": "^4.1.3",
+      "yaml-loader": "^0.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,4 @@
+mutation DeleteStream($id: ObjectId!) {
+  deleteStream(streamId: $id)
+}
+
